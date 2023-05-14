@@ -6,6 +6,14 @@
 
 
 @media (min-width: 768px) {
+  .col-sm-offset-3 {
+    margin-left: 25%;
+  }
+
+  .col-md-12 {
+    flex: 0 0 auto;
+    width: 100%;
+  }
 
    
 }
