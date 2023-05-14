@@ -1,243 +1,285 @@
 @media (min-width: 576px) {
+
+   
 }
+
+
 
 @media (min-width: 768px) {
-  .col-sm-offset-3 {
-    margin-left: 25%;
-  }
+
+   
 }
+
+
 
 @media (min-width: 992px) {
-  .navbar-expand-lg {
-    flex-wrap: nowrap;
-    justify-content: flex-start;
-  }
 
-  .noduco-site-header #navbar {
-    justify-content: end;
-  }
+   .navbar-expand-lg {
+      flex-wrap: nowrap;
+      justify-content: flex-start;
+   }
 
-  .navbar-expand-lg .navbar-collapse {
-    display: flex !important;
-    flex-basis: auto;
-  }
+   .noduco-site-header #navbar {
+      justify-content: end;
+   }
 
-  .navbar-expand-lg .navbar-nav {
-    flex-direction: row;
-  }
+   .navbar-expand-lg .navbar-collapse {
+      display: flex !important;
+      flex-basis: auto;
+   }
 
-  .noduco-site-header #navbar li {
-    position: relative;
-  }
+   .navbar-expand-lg .navbar-nav {
+      flex-direction: row;
+   }
 
-  .noduco-site-header #navbar > ul > li > a {
-    color: #202020;
-    display: block;
-    font-family: Inter, sans-serif;
-    font-size: 16px;
-    font-weight: 500;
-    padding: 35px 20px;
-    position: relative;
-    text-transform: capitalize;
-  }
+   .noduco-site-header #navbar li {
+      position: relative;
+   }
 
-  .mobileMenu,
-  .showmenu {
-    display: none;
-  }
+   .noduco-site-header #navbar>ul>li>a {
+      color: #202020;
+      display: block;
+      font-family: Inter, sans-serif;
+      font-size: 16px;
+      font-weight: 500;
+      padding: 35px 20px;
+      position: relative;
+      text-transform: capitalize;
+   }
+
+   .mobileMenu, .showmenu {
+      display: none;
+   }
 }
+
+
 
 @media (min-width: 1200px) {
-  .section-heading__title_big {
-    font-size: 2.5rem;
-  }
 
-  .section-software__title_big {
-    font-size: 2.5rem;
-  }
+   .section-heading__title_big {
+      font-size: 2.5rem;
+   }
 
-  .services-software__header .heading {
-    font-size: 1.625rem;
-  }
-  h2,
-  .h2 {
-    font-size: 2.0275rem;
-  }
+   .section-software__title_big {
+      font-size: 2.5rem;
+   }
 
-  .col-lg-offset-4 {
-    margin-left: 33.33333333%;
-  }
+   .services-software__header .heading {
+      font-size: 1.625rem;
+   }
+   h2, .h2 {
+      font-size: 2.0275rem;
+   }
 }
+
+
 
 @media (min-width: 1400px) {
-  .hero-container .container {
-    max-width: 1320px;
-  }
+
+   .hero-container .container {
+      max-width: 1320px;
+   }
 }
+
+
 
 @media (max-width: 1700px) {
-  .noduco-site-header {
-    padding: 0 30px;
-  }
+   .noduco-site-header {
+      padding: 0 30px;
+   }
 }
+
+
 
 @media (max-width: 1600px) {
+   
 }
+
+
 
 @media (max-width: 1500px) {
-  .noduco-site-header {
-    padding: 0 10px;
-  }
+   .noduco-site-header {
+      padding: 0 10px;
+   }
 }
+
+
 
 @media (max-width: 1400px) {
-  .noduco-header-style-1 .noduco-site-header .header-right .theme-btn,
-  .noduco-header-style-1 .noduco-site-header .header-right .view-cart-btn {
-    margin-right: -15px;
-    padding: 10px 20px 10px 20px;
-  }
 
-  .noduco-site-header #navbar > ul > li > a {
-    padding: 30px 10px;
-  }
+   .noduco-header-style-1 .noduco-site-header .header-right .theme-btn,
+   .noduco-header-style-1 .noduco-site-header .header-right .view-cart-btn {
+      margin-right: -15px;
+      padding: 10px 20px 10px 20px;
+   }
+
+   .noduco-site-header #navbar>ul>li>a {
+      padding: 30px 10px;
+   }
 }
+
+
 
 @media (max-width: 1200px) {
+   
 }
+
+
 
 @media (max-width: 1199px) {
+   
+   
 }
+
+
 
 @media (max-width: 1099px) {
+   
 }
+
+
 
 @media (max-width: 991px) {
-  .noduco-site-header .container {
-    width: 100%;
-    max-width: 100%;
-  }
 
-  .noduco-site-header .navigation {
-    padding: 5px 0;
-  }
+   .noduco-site-header .container {
+      width: 100%;
+      max-width: 100%;
+   }
 
-  .mobileMenu {
-    display: block;
-  }
+   .noduco-site-header .navigation {
+      padding: 5px 0;
+   }
 
-  .noduco-site-header #navbar {
-    background: #1e1e1e;
-    border: 0;
-    display: block !important;
-    height: 100%;
-    left: -320px;
-    margin: 0;
-    opacity: 0;
-    padding: 0;
-    position: fixed;
-    top: 0;
-    visibility: hidden;
-    width: 300px;
-    z-index: 999999;
-  }
-  .noduco-site-header .navbar-header {
-    float: none;
-    position: relative;
-    text-align: center;
-    z-index: 99;
-  }
-  .noduco-site-header .navbar-brand.site-logo {
-    align-items: center;
-    color: #fff;
-    cursor: pointer;
-    display: flex;
-    font-size: 40px;
-    font-weight: 700;
-    justify-content: center;
-  }
-  .noduco-site-header .navbar-header .navbar-brand img {
-    max-width: 65px;
-  }
-  .noduco-site-header .menu-close {
-    background: none;
-    border: 1px solid #fff;
-    color: #fff;
-    display: block;
-    height: 40px;
-    line-height: 40px;
-    margin: 30px 30px 30px auto;
-    text-align: center;
-    width: 40px;
-    z-index: 99;
-  }
-  .theme-btn,
-  .view-cart-btn {
-    font-size: 18px;
-    font-size: 1.2rem;
-  }
+   .mobileMenu {
+      display: block;
+   }
 
-  .ftco-no-pb {
-    padding-bottom: 3em !important;
-  }
+   .noduco-site-header #navbar {
+      background: #1e1e1e;
+      border: 0;
+      display: block!important;
+      height: 100%;
+      left: -320px;
+      margin: 0;
+      opacity: 0;
+      padding: 0;
+      position: fixed;
+      top: 0;
+      visibility: hidden;
+      width: 300px;
+      z-index: 999999;
+   }
+   .noduco-site-header .navbar-header {
+      float: none;
+      position: relative;
+      text-align: center;
+      z-index: 99;
+   }
+   .noduco-site-header .navbar-brand.site-logo {
+      align-items: center;
+      color: #fff;
+      cursor: pointer;
+      display: flex;
+      font-size: 40px;
+      font-weight: 700;
+      justify-content: center;
+   }
+   .noduco-site-header .navbar-header .navbar-brand img {
+      max-width: 65px;
+   }
+   .noduco-site-header .menu-close {
+      background: none;
+      border: 1px solid #fff;
+      color: #fff;
+      display: block;
+      height: 40px;
+      line-height: 40px;
+      margin: 30px 30px 30px auto;
+      text-align: center;
+      width: 40px;
+      z-index: 99;
+   }
+   .theme-btn, .view-cart-btn {
+      font-size: 18px;
+      font-size: 1.2rem;
+   }
+   
+   .ftco-no-pb {
+      padding-bottom: 3em !important;
+   }
 
-  .theme-btn.resume-btn {
-    width: 140px;
-  }
+   .theme-btn.resume-btn {
+      width: 140px;
+   }
 }
+
+
 
 @media (max-width: 767px) {
-  .noduco-header-style-1 .noduco-site-header .header-right .theme-btn,
-  .noduco-header-style-1 .noduco-site-header .header-right .view-cart-btn {
-    padding: 10px 0px 10px 15px;
-  }
+   .noduco-header-style-1 
+   .noduco-site-header 
+   .header-right 
+   .theme-btn,
+   .noduco-header-style-1 
+   .noduco-site-header 
+   .header-right 
+   .view-cart-btn {
+      padding: 10px 0px 10px 15px;
+   }
+   
+   .theme-btn, .view-cart-btn {
+      font-size: 18px;
+      font-size: 1rem;
+   }
+   .noduco-site-header .navbar-header .navbar-brand {
+      font-size: 24px;
+   }
+   .noduco-site-header .navbar-header .navbar-brand img {
+      max-width: 60px;
+   }
+   .theme-btn,
+   .view-cart-btn {
+      font-size: 14px;
+      padding: 12px 18px 12px 18px;
+   }
+   .fa-arrow-down{
+      margin-left: 0px;
+   }
 
-  .theme-btn,
-  .view-cart-btn {
-    font-size: 18px;
-    font-size: 1rem;
-  }
-  .noduco-site-header .navbar-header .navbar-brand {
-    font-size: 24px;
-  }
-  .noduco-site-header .navbar-header .navbar-brand img {
-    max-width: 60px;
-  }
-  .theme-btn,
-  .view-cart-btn {
-    font-size: 14px;
-    padding: 12px 18px 12px 18px;
-  }
-  .fa-arrow-down {
-    margin-left: 0px;
-  }
-
-  .theme-btn.resume-btn {
-    width: 85px;
-  }
+   .theme-btn.resume-btn{
+      width: 85px;
+   }
 }
+
+
 
 @media (max-width: 575px) {
+
 }
+
+
 
 @media (max-width: 530px) {
+
 }
 
-@media (max-width: 400px) {
-  .noduco-site-header .navbar-brand.site-logo span {
-    padding-top: 5px;
-    padding-left: 5px;
-  }
-  .noduco-site-header .navbar-header .navbar-brand img {
-    max-width: 45px;
-  }
-  .theme-btn,
-  .view-cart-btn {
-    font-size: 11px;
-    padding: 12px 18px 12px 18px;
-  }
 
-  .fixed-navbar.scrolled {
-    background-color: #4e54c8 !important;
-    height: 75px;
-  }
+
+@media (max-width: 400px) {
+   .noduco-site-header .navbar-brand.site-logo span {
+      padding-top: 5px;
+      padding-left: 5px;
+   }
+   .noduco-site-header .navbar-header .navbar-brand img {
+      max-width: 45px;
+   }
+   .theme-btn, .view-cart-btn {
+      font-size: 11px;
+      padding: 12px 18px 12px 18px;
+   }
+   
+      .fixed-navbar.scrolled {
+         background-color: #4e54c8 !important;
+         height: 75px;
+      }
 }
