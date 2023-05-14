@@ -1,61 +1,114 @@
 :root {
     --primary-color: #0859D7;
+    --secondary-color: #FFF;
 }
 
-
-.container,
-.container-fluid,
-.container-lg,
-.container-md,
-.container-sm,
-.container-xl,
-.container-xxl {
-   margin-left: auto;
-   margin-right: auto;
-   padding-left: 0.75rem;
-   padding-left: var(--bs-gutter-x, .75rem);
-   padding-right: 0.75rem;
-   padding-right: var(--bs-gutter-x, .75rem);
-   width: 100%;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.row {
-    --bs-gutter-x: 1.5rem;
+body {
+    font-family: "Barlow", sans-serif;
+    color: #14133b;
+    font-size: 16px;
+}
+
+li {
+    list-style-type: none;
+}
+
+a, a:active, a:focus {
+    text-decoration: none;
+    outline: none;
+    border: none;
+    color: inherit;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+i {
+    font-style: normal;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    color: #14133b;
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    color: #5b6674;
+    font-size: 16px;
+    line-height: 1.75;
+}
+
+.g-0, .gy-0 {
     --bs-gutter-y: 0;
-    display: flex;
-    flex-wrap: wrap;
+}
+.g-0, .gx-0 {
+    --bs-gutter-x: 0;
 }
 
 
-.col-12 {
-    flex: 0 0 auto;
-    width: 100%;
-}
-.col-6 {
-    flex: 0 0 auto;
-    width: 50%;
-}
-.col-4 {
-    flex: 0 0 auto;
-    width: 33.3333333%;
+.mb-40 {
+    margin-bottom: 40px;
 }
 
-.col-3 {
-    flex: 0 0 auto;
-    width: 25%;
+.pb-100 {
+    padding-bottom: 100px;
 }
 
-.col-2 {
-    flex: 0 0 auto;
-    width: 16.66666667%;
+.pt-125 {
+    padding-top: 125px;
 }
 
-.col-1 {
-    flex: 0 0 auto;
-    width: 8.33333333%;
+.text-center {
+    text-align: center !important;
 }
 
-.col-0 {
-    flex: 0 0 auto;
-    width: 0%;
+.mb-50 {
+    margin-bottom: 50px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.pb-70 {
+    padding-bottom: 70px;
+}
+.pt-90 {
+    padding-top: 90px;
+}
+
+.btn--common {
+    padding: 11px 12px 11px 25px;
+    font-size: 16px;
+    font-weight: 500;
+    background: #eff4ff;
+    color: #14133b;
+    border-radius: 5px;
+    outline: 0;
+    transition: all 0.4s ease;
+    display: inline-flex;
+    align-items: center;
+    letter-spacing: 0.01em;
 }

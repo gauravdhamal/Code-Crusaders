@@ -78,7 +78,7 @@ img {
     display: block;
  }
  
- .wpo-site-header {
+ .noduco-site-header {
     background: #fff;
     left: 0;
     padding: 0;
@@ -93,11 +93,11 @@ img {
     height: 95px;
  }
  
- .wpo-site-header .navigation {
+ .noduco-site-header .navigation {
     background: transparent;
  }
  
- .wpo-site-header .navigation {
+ .noduco-site-header .navigation {
     border: 0;
     border-radius: 0;
     margin-bottom: 0;
@@ -114,7 +114,7 @@ img {
     position: relative;
  } */
  
- .wpo-site-header .navigation>.container {
+ .noduco-site-header .navigation>.container {
     position: relative;
  }
  
@@ -127,7 +127,7 @@ img {
  }
  
  
- .wpo-site-header .row {
+ .noduco-site-header .row {
     width: 100%;
  }
  
@@ -140,7 +140,7 @@ img {
     white-space: nowrap;
  }
  
- .wpo-site-header .navbar-brand.site-logo {
+ .noduco-site-header .navbar-brand.site-logo {
     align-items: center;
     color: #fff;
     cursor: pointer;
@@ -151,17 +151,17 @@ img {
     /* padding-left: 20px; */
  }
  
- .wpo-site-header .navbar-brand.site-logo span {
+ .noduco-site-header .navbar-brand.site-logo span {
     padding-top: 10px;
     padding-left: 10px;
  }
 
  
- .wpo-site-header #navbar {
+ .noduco-site-header #navbar {
     transition: all .5s;
  }
  
- .wpo-site-header #navbar ul {
+ .noduco-site-header #navbar ul {
     list-style: none;
  }
  
@@ -181,16 +181,16 @@ img {
     padding-left: 0;
  }
  
- .wpo-header-style-1 .wpo-site-header #navbar>ul>li>a {
+ .noduco-header-style-1 .noduco-site-header #navbar>ul>li>a {
     color: #000000;
     cursor: pointer;
  }
  
- .wpo-header-style-1 .wpo-site-header .navigation {
+ .noduco-header-style-1 .noduco-site-header .navigation {
     background: transparent;
  }
  
- .wpo-site-header .header-right {
+ .noduco-site-header .header-right {
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -198,7 +198,7 @@ img {
     z-index: 991;
  }
  
- .wpo-site-header .header-right>div:last-child {
+ .noduco-site-header .header-right>div:last-child {
     margin: 0 0 0 10px;
     position: relative;
  }
@@ -207,8 +207,8 @@ img {
     margin-left: 10px;
  }
  
- .wpo-site-header #navbar>ul li a:focus,
- .wpo-site-header #navbar>ul li a:hover {
+ .noduco-site-header #navbar>ul li a:focus,
+ .noduco-site-header #navbar>ul li a:hover {
  
     border-bottom: 4px solid var(--primary-color);
     border-radius: 2px;
@@ -221,7 +221,7 @@ img {
     flex-grow: 1;
  }
  
- .wpo-site-header .menu-close {
+ .noduco-site-header .menu-close {
     display: none;
  }
  
