@@ -1,6 +1,10 @@
 :root {
     --primary-color: #0859D7;
     --secondary-color: #FFF;
+    --primary-color-three: #f0f3f9;
+    --heading-dark: #282f3b;
+    --border-color-dark: #e4e7ee;
+    --box-shadow-two: 0px 3px 16px 0px rgba(0, 0, 0, .05);
 }
 
 * {

@@ -31,7 +31,7 @@ img {
     height: 100vh;
     margin: 0;
     color: #d8d8d8;
-    background: #131313;
+    /* background: #131313; */
     font-family: 'Inter', sans-serif;
  }
  
@@ -302,7 +302,7 @@ img {
    font-size: 16px;
    font-size: 1.0666666667rem;
    font-weight: 600;
-   padding: 15px 35px 15px 35px;
+   padding: 15px 25px 15px 25px;
    position: relative;
    text-transform: capitalize;
    z-index: 1;
