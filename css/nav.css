@@ -239,7 +239,7 @@ img {
  }
  
  .showmenu button {
-    background: #59c378;
+    background: var(--primary-color);
     cursor: pointer;
     position: relative;
     top: 0;
@@ -291,7 +291,7 @@ img {
  }
 
 
- .theme-btn,
+ .nav-theme-btn,
 .view-cart-btn {
    background: var(--primary-color);
    border: 0;

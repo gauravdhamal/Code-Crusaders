@@ -95,8 +95,8 @@
 }
 
 .theme-btn:after, .theme-btn-s2:after {
-    font-family: "themify";
-    content: "\e61a";
+    font-family: "fontawesome";
+    content: "\f061";
     position: absolute;
     font-size: 14px;
     right: 15px;
@@ -122,9 +122,17 @@
     border-radius: 60px;
 }
 
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
+    content: '';
+}
+
+.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
+    content: '';
+}
+
 .hero-slider .swiper-button-next:before {
-    font-family: "themify";
-    content: "\e628";
+    font-family: "fontawesome";
+    content: "\f061";
     font-size: 20px;
     color: #fff;
 }
@@ -133,7 +141,12 @@
     left: 25px;
 }
 
-
+.hero-slider .swiper-button-prev:before {
+    font-family: "fontawesome";
+    content: "\f060";
+    font-size: 20px;
+    color: #fff;
+}
 
 
 /*------------------Start of Main Page About ------------------*/

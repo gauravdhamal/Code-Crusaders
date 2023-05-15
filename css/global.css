@@ -116,3 +116,7 @@ p {
     align-items: center;
     letter-spacing: 0.01em;
 }
+
+.pd_top_90 {
+    padding-top: 90px !important;
+}

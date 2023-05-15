@@ -23,9 +23,12 @@
         <link rel="stylesheet" href="/css/global.css" />
         <link rel="stylesheet" href="/css/index.css" />
         <link rel="stylesheet" href="/css/responsive.css" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
         <title>Document</title>
     </head>
     <body>
+      <div id="custom-noduco-header"></div>
+      <div class="pd_top_90"></div>
         <section class="hero-slider hero-slider-s2">
             <div class="swiper-container swiper-container-horizontal">
                 <div
@@ -380,7 +383,7 @@
               <header class="services-software__header sticky">
                 <i class="flaticon flaticon-management icon"></i>
                 <h3 class="heading">
-                  <a href="service.html">E-Commerce / J2EE Solutions</a>
+                  <a href="service.html">J2EE Solutions</a>
                 </h3>
               </header>
               <div class="services-software__content">
@@ -404,7 +407,7 @@
               <header class="services-software__header sticky">
                 <i class="flaticon flaticon-secure-shield icon"></i>
                 <h3 class="heading">
-                  <a href="service.html">Custom Software Development</a>
+                  <a href="service.html">Software Development</a>
                 </h3>
               </header>
               <div class="services-software__content">
@@ -428,7 +431,7 @@
               <header class="services-software__header sticky">
                 <i class="flaticon flaticon-analytics icon"></i>
                 <h3 class="heading">
-                  <a href="service.html">Legacy Applications Enhancement</a>
+                  <a href="service.html">Legacy Applications</a>
                 </h3>
               </header>
               <div class="services-software__content">
@@ -476,7 +479,7 @@
               <header class="services-software__header sticky">
                 <i class="flaticon flaticon-deadline icon"></i>
                 <h3 class="heading">
-                  <a href="service.html">Database Design And Development</a>
+                  <a href="service.html">Database Design</a>
                 </h3>
               </header>
               <div class="services-software__content">
@@ -609,6 +612,7 @@
       </div>
     </section>
     <!-- main page contact area end --->
+    <div id="custom-noduco-footer"></div>
     </body>
     <script
         src="https://kit.fontawesome.com/00b3499e31.js"
@@ -622,9 +626,17 @@
     ></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script
-        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-        crossorigin="anonymous"
-    ></script>
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"
+  ></script>
+  <script>
+    $(function () {
+       $("#custom-noduco-header").load("nav.html");
+    });
+    $(function () {
+       $("#custom-noduco-footer").load("footer.html");
+    });
+ </script>
     <script src="js/index.js"></script>
 </html>

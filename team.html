@@ -17,23 +17,22 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="/css/global.css" />
+    <!-- <link rel="stylesheet" href="/css/theme-css.css" /> -->
     <link rel="stylesheet" href="/css/team.css" />
-    <link
-      rel="stylesheet"
-      href="Contact Us/assets/css/scss/elements/theme-css.css"
-      type="text/css"
-      media="all"
-    />
     <link rel="stylesheet" href="/css/responsive.css" />
+    <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
     <title>Teams</title>
   </head>
   <body>
+    <div id="custom-noduco-header"></div>
+    <div class="pd_top_90"></div>
     <!-- Header navigation part start -->
     <div class="page_header_default style_one">
       <div class="parallax_cover">
         <div class="simpleParallax">
           <img
-            src="Contact Us/assets/images/page-header-default.jpg"
+            src="/assets/page-header-default.jpg"
             alt="bg_image"
             class="cover-parallax"
           />
@@ -60,14 +59,18 @@
       </div>
     </div>
     <!-- Header navigation part end -->
-
+    
     <section class="team-section section-padding">
       <div class="container">
         <div class="row">
-          <div class="col col-lg-4 col-lg-offset-4 col-sm-6 col-sm-offset-3">
-            <div class="section-title-s5">
-              <span>Members</span>
-              <h2>Our Dedicated Team <span>For your service</span></h2>
+          <div class="col-12 justify-content-center">
+            <div class="section-heading text-center undefined">
+              <h4 class="h5 text-primary">Our Team</h4>
+              <h2>Best Services Grow Your Business Value</h2>
+              <p>
+                Globally actualize cost effective with resource maximizing
+                leadership skills.
+              </p>
             </div>
           </div>
         </div>
@@ -298,6 +301,7 @@
       </div>
       <!-- end container -->
     </section>
+    <div id="custom-noduco-footer"></div>
   </body>
 
   <script
@@ -310,4 +314,12 @@
     integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
     crossorigin="anonymous"
   ></script>
+  <script>
+    $(function () {
+       $("#custom-noduco-header").load("nav.html");
+    });
+    $(function () {
+       $("#custom-noduco-footer").load("footer.html");
+    });
+ </script>
 </html>
