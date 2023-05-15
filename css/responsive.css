@@ -194,8 +194,21 @@
 
   .noduco-site-header .navbar-header .navbar-brand img {
     max-width: 200px;
-}
+  }
 
+  .hero-slider .slide-title h2 {
+    font-size: 50px;
+    font-size: 3.33333rem;
+  }
+
+  .hero-slider {
+    height: 600px;
+  }
+
+  .hero-slider .swiper-button-prev, .hero-slider .swiper-button-next {
+    display: none;
+  }
+ 
 
 }
 
@@ -240,8 +253,29 @@
 
   .noduco-site-header .navbar-header .navbar-brand img {
     max-width: 150px;
-}
+  }
 
+  .hero-slider .slide-title h2 {
+    font-size: 35px;
+    font-size: 2.33333rem;
+  }
+
+  .hero-slider {
+    height: 500px;
+  }
+
+  .theme-btn, .theme-btn-s2 {
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    font-size: 14px;
+    font-size: 0.93333rem;
+    font-weight: 600;
+    padding: 0 20px;
+  }
+  .theme-btn:after, .theme-btn-s2:after {
+    content: ""
+  }
 }
 
 @media (max-width: 575px) {
