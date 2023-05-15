@@ -185,6 +185,19 @@
     width: calc(50% - 30px);
   }
 
+  .noduco-site-header .header-right{
+    display: none;
+  }
+
+  .mobile-small .align-items-center {
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .noduco-site-header .navbar-header .navbar-brand img {
+    max-width: 200px;
+}
+
 }
 
 @media (max-width: 767px) {
@@ -226,9 +239,17 @@
     margin: 0 7.5px 50px;
   }
 
+  .noduco-site-header .navbar-header .navbar-brand img {
+    max-width: 150px;
+}
+
 }
 
 @media (max-width: 575px) {
+
+  .noduco-site-header .navbar-header .navbar-brand img {
+    max-width: 137px;
+}
 }
 
 @media (max-width: 530px) {
@@ -236,6 +257,10 @@
   .team-section .team-grids .grid {
     width: calc(100% - 15px);
     float: none;
+  }
+
+  .mobile-small .navbar-header a{
+    margin-right: 0px;
   }
 
 }
