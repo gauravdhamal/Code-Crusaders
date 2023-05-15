@@ -151,9 +151,7 @@
     font-weight: 700;
     justify-content: center;
   }
-  .noduco-site-header .navbar-header .navbar-brand img {
-    max-width: 65px;
-  }
+
   .noduco-site-header .menu-close {
     background: none;
     border: 1px solid #fff;
@@ -182,7 +180,7 @@
 
 
   .team-section .team-grids .grid {
-    width: calc(50% - 30px);
+    width: calc(50% - 40px);
   }
 
   .noduco-site-header .header-right{
@@ -197,6 +195,7 @@
   .noduco-site-header .navbar-header .navbar-brand img {
     max-width: 200px;
 }
+
 
 }
 
