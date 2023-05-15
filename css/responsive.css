@@ -96,6 +96,8 @@
   .noduco-site-header #navbar > ul > li > a {
     padding: 30px 10px;
   }
+
+  
 }
 
 @media (max-width: 1200px) {
@@ -208,7 +210,11 @@
   .hero-slider .swiper-button-prev, .hero-slider .swiper-button-next {
     display: none;
   }
- 
+  
+  .cta-content {
+    text-align: center;
+    margin-bottom: 10px;
+  }
 
 }
 
@@ -226,9 +232,7 @@
   .noduco-site-header .navbar-header .navbar-brand {
     font-size: 24px;
   }
-  .noduco-site-header .navbar-header .navbar-brand img {
-    max-width: 60px;
-  }
+  
   .theme-btn,
   .view-cart-btn {
     font-size: 14px;
@@ -276,13 +280,20 @@
   .theme-btn:after, .theme-btn-s2:after {
     content: ""
   }
+
+  .cta-image-area_one h3{
+    font-size: 40px;
+  }
 }
 
 @media (max-width: 575px) {
 
   .noduco-site-header .navbar-header .navbar-brand img {
     max-width: 137px;
-}
+  }
+  .cta-image-area_one h3{
+    font-size: 25px;
+  }
 }
 
 @media (max-width: 530px) {
